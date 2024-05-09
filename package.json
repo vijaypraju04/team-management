@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },  
+  "scripts": {
+    "start": "concurrently \"yarn start-server\" \"yarn start-client\"",
+    "start-server": "cd backend/server && python manage.py runserver",
+    "start-client": "cd frontend/app && yarn start"
+  }
+}
