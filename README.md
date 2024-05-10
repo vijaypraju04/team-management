@@ -48,6 +48,7 @@ yarn install
 ### Running the Application
 From the root of the project, you can start both the frontend and the backend concurrently:
 ```bash
+cd ../../../team-management
 yarn install && yarn start
 ```
 This command will start the Django backend on http://localhost:8000 and the React frontend on http://localhost:3000.
