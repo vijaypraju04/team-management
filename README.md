@@ -5,7 +5,7 @@ This project is a full-stack application for managing team members. It features 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-- Python 3.8 or higher
+- Python 3.12 or higher
 - Node.js 16.x or higher
 - Yarn package manager
 
@@ -32,7 +32,6 @@ source venv/bin/activate
 #### Install the required Python packages:
 ```bash
 pip install -r requirements.txt
-pip install setuptools
 ```
 
 #### Migrate the database:
@@ -49,7 +48,7 @@ yarn install
 ### Running the Application
 From the root of the project, you can start both the frontend and the backend concurrently:
 ```bash
-yarn start
+yarn install && yarn start
 ```
 This command will start the Django backend on http://localhost:8000 and the React frontend on http://localhost:3000.
 
