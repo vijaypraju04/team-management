@@ -6,7 +6,7 @@ This project is a full-stack application for managing team members. It features 
 
 Before you begin, ensure you have the following installed:
 - Python 3.8 or higher
-- Node.js 14.x or higher
+- Node.js 16.x or higher
 - Yarn package manager
 
 ## Getting Started
@@ -25,7 +25,7 @@ cd team-management
 ### Setting Up the Backend
 ```bash
 cd backend/server
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 #### Migrate the database:
 ```bash
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 ### Setting Up the Frontend
