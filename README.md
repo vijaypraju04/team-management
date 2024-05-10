@@ -32,6 +32,7 @@ source venv/bin/activate
 #### Install the required Python packages:
 ```bash
 pip install -r requirements.txt
+pip install setuptools
 ```
 
 #### Migrate the database:
